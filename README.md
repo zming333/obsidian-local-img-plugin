@@ -1,3 +1,11 @@
+
+
+put this to your .plugin.
+
+then enable this, engjoy it!!!
+
+
+-----------------------------
 # Obsidian Sample Plugin
 
 This is a sample plugin for Obsidian (https://obsidian.md).
