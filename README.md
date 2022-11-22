@@ -1,9 +1,19 @@
 
+！！！Support html local images link！！！
+
+
+![Untitled1](https://user-images.githubusercontent.com/10290923/203392970-7df381a5-a0a3-4375-90af-df9ae9e187e7.gif)
+
 
 put this to your .plugin.
 
 then enable this, engjoy it!!!
 
+
+- Do not support live preview now
+
+
+REF: [c3p0](https://forum.obsidian.md/t/how-to-display-local-images-with-img-tag-and-keep-portability/37270/9)
 
 -----------------------------
 # Obsidian Sample Plugin
