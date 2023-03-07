@@ -10,7 +10,8 @@ put this to your .plugin.
 then enable this, engjoy it!!!
 
 
-- Do not support live preview now
+- Do not support live preview now https://github.com/talengu/obsidian-local-img-plugin/issues/2
+- Do not support ZH path https://github.com/talengu/obsidian-local-img-plugin/issues/3
 
 
 REF: [c3p0](https://forum.obsidian.md/t/how-to-display-local-images-with-img-tag-and-keep-portability/37270/9)
