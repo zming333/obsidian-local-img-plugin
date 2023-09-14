@@ -55,11 +55,12 @@ var HtmlLocalSrcPlugin = class extends import_obsidian.Plugin {
       this.registerMarkdownPostProcessor((element, ctx) => {
         const active_file = this.app.workspace.getActiveFile();
         console.log(active_file.basename);
-        const targetLinks = Array.from(element.getElementsByTagName("img")).filter((link) => link.src.contains(active_file.basename));
+        const targetLinks = Array.from(element.getElementsByTagName("img")).filter((link) => link.src.contains("vs./"));
         let active_path = this.app.vault.getResourcePath(active_file);
         active_path = active_path.substring(0, active_path.lastIndexOf("/"));
         for (const link of targetLinks) {
           let clean_link = link.src.replace("app://obsidian.md/", "");
+          clean_link = clean_link.replace("vs./", "");
           clean_link = clean_link.replace("capacitor://localhost/", "");
           let full_link = active_path + "/" + clean_link;
           link.src = full_link;
